@@ -1,19 +1,32 @@
 {
-  "name": "book-management-and-blogging-site",
+  "name": "titaniumaplus",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000b\u0000o\u0000o\u0000k\u0000-\u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000m\u0000e\u0000n\u0000t\u0000-\u0000a\u0000n\u0000d\u0000-\u0000b\u0000l\u0000o\u0000g\u0000g\u0000i\u0000n\u0000g\u0000-\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "description": "repo for assignments and practice problems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxhothead776/book-management-and-blogging-site.git"
+    "url": "git+https://github.com/sabihak89/titaniumaplus.git"
   },
-  "author": "Mayank attri",
+  "author": "functionUp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxhothead776/book-management-and-blogging-site/issues"
+    "url": "https://github.com/sabihak89/titaniumaplus/issues"
   },
-  "homepage": "https://github.com/maxhothead776/book-management-and-blogging-site#readme"
+  "homepage": "https://github.com/sabihak89/titaniumaplus#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1001.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.9",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
